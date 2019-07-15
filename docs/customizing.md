@@ -73,7 +73,7 @@ Blogger-cli uses jinja2 templating engine. So, please lookup to jinja2 [documeta
 The variables are referenced using {{ var }} syntax.
 
 2. Logic code
-Logic code are written inside ```{% %} \\some\\code\\ {% %}``` brackets. Well basic logic like if statements, for loop, while loop etc are available.
+Logic code are written inside jinja logic brackets. Basic logics like if statements, for loop, while loop etc are available.
 
 eg: if else
 ```

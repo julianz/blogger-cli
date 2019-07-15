@@ -79,8 +79,6 @@ eg: if else
 ```
 {% if var %}
     something
-{% elif %}
-    sth
 {% else %}
     sth
 {% endif %}

@@ -73,7 +73,7 @@ Blogger-cli uses jinja2 templating engine. So, please lookup to jinja2 [documeta
 The variables are referenced using {{ var }} syntax.
 
 2. Logic code
-Logic code are written inside jinja logic brackets. Basic logics like if statements, for loop, while loop etc are available.
+Logic code are written inside jinja logic brackets. Basic logics like if statements, for loop, etc are available.
 
 eg: if else
 ```
@@ -83,15 +83,8 @@ eg: if else
     sth
 {% endif %}
 ```
-for loop
-```
-{% for i in var %}
-    something
-{% endfor %}
+This is just tip of iceberg. You an do amazing things with jinja templates. Here are supported [control structures](http://jinja.pocoo.org/docs/2.10/templates/#list-of-control-structures)
 
-{% for i,j in zip(var.a,var.b) %}
-{% endfor %}
-```
 
 #### Usage
 You can execute any python codes and use logic anyway you like inside {% %} in any templates.

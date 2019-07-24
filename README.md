@@ -5,7 +5,7 @@ See a sample blog made by blogger-cli: [Here](https://pykancha.github.io/test/)
 
 ## Why?
 It is easy to get your hands on, works flawlessly and won't get bulky and slow overtime.
-Blogger-cli has simple conversion system that is fast as well extremely customizable. 
+Blogger-cli has a simple conversion system that is fast as well as extremely customizable. 
 
 
 ## Features
@@ -31,13 +31,13 @@ Since blogger has alot of dependecies (nbconvert, jupyter), this custom installe
 pip install blogger-cli
 ```
 
-If you mainly use jupyter notebook, then you already have all dependecies although it is recommende to use virutalenv.
+If you mainly use jupyter notebook, then you already have all dependecies although it is recommended to use virtualenv.
 
 
 ## 🚀 Getting Started
 Make a website repository and clone it to your computer. Now register your blogname with blogger
 ```$ blogger addblog <blogname>```
-and setup necessary configs. Now, If you have new site or empty site. You can get blogger default design and boiler plate.
+and setup necessary configs. Now, If you have new site or empty site. You can get blogger default design and boilerplate.
 ```
 $ blogger export blog_layout -b <blogname>
 ```
